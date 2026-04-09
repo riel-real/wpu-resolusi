@@ -140,7 +140,7 @@
 </div>
 
 <footer>
-    <p>© 2026 - Dibuat dengan 💜</p>
+    <p>© 2026 - Dibuat dengan cinta💜</p>
 </footer>
 
 </body>
