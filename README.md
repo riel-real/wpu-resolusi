@@ -134,7 +134,7 @@
             <li>Aplikasi To-Do List</li>
             <li>Landing Page Modern</li>
         </ul>
-        <a href="https://github.com/username" class="btn">Lihat GitHub</a>
+        <a href="https://github.com/riel-real/wpu-resolusi.git" class="btn">Lihat GitHub</a>
     </div>
 
 </div>
