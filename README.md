@@ -1,68 +1,118 @@
-<!DOCTYPE html>
+
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>My Modern GitHub Page</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #0d1117;
-            color: #c9d1d9;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
         }
+
         header {
-            background-color: #161b22;
-            padding: 20px;
+            padding: 30px;
             text-align: center;
-            border-bottom: 1px solid #30363d;
         }
+
         header h1 {
-            margin: 0;
+            font-size: 2.5em;
         }
+
+        header p {
+            opacity: 0.8;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
         nav a {
-            color: #58a6ff;
+            color: white;
             margin: 0 10px;
             text-decoration: none;
+            font-weight: 500;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         .container {
-            padding: 20px;
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
         }
+
         .card {
-            background-color: #161b22;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            border: 1px solid #30363d;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            transition: 0.3s;
         }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
         .btn {
             display: inline-block;
-            padding: 10px 15px;
-            background-color: #238636;
+            margin-top: 15px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: linear-gradient(45deg, #ff7eb3, #ff758c);
             color: white;
-            border-radius: 6px;
             text-decoration: none;
+            transition: 0.3s;
         }
+
         .btn:hover {
-            background-color: #2ea043;
+            opacity: 0.85;
         }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
         footer {
             text-align: center;
-            padding: 15px;
-            border-top: 1px solid #30363d;
-            margin-top: 20px;
-            font-size: 14px;
+            padding: 20px;
+            opacity: 0.7;
+        }
+
+        /* Animasi fade in */
+        .fade-in {
+            animation: fadeIn 1s ease forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Ariel-real</h1>
-    <p>Welcome to my project page 🚀</p>
+<header class="fade-in">
+    <h1>✨ Ariel-Real</h1>
+    <p>Frontend Developer | UI Enthusiast</p>
     <nav>
         <a href="#">Home</a>
         <a href="#">Projects</a>
@@ -72,18 +122,17 @@
 
 <div class="container">
 
-    <div class="card">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah developer yang suka membuat aplikasi web dan open source.</p>
+    <div class="card fade-in">
+        <h2>👋 Tentang Saya</h2>
+        <p>Saya suka membuat tampilan web modern, interaktif, dan user-friendly.</p>
     </div>
 
-    <div class="card">
-        <h2>Project Saya</h2>
-        <p>Beberapa project yang sudah saya buat:</p>
+    <div class="card fade-in">
+        <h2>🚀 Project Saya</h2>
         <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
+            <li>Website Portfolio</li>
+            <li>Aplikasi To-Do List</li>
+            <li>Landing Page Modern</li>
         </ul>
         <a href="https://github.com/username" class="btn">Lihat GitHub</a>
     </div>
@@ -91,7 +140,7 @@
 </div>
 
 <footer>
-    <p>© 2026 - Dibuat dengan ❤️</p>
+    <p>© 2026 - Dibuat dengan 💜</p>
 </footer>
 
 </body>
